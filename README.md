@@ -83,7 +83,7 @@ In addition, the system provides real-time tracking and reporting capabilities t
 
 Overall, a leave management system is a powerful tool for organizations that want to streamline their leave management process, reduce errors, and ensure compliance with labor laws and regulations. It simplifies the process for both employees and supervisors, while providing real-time tracking and reporting capabilities to improve the efficiency of the organization. 
 
-Use the `BLANK_README.md` to get started.
+Use the `LICENSE.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,12 +91,8 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
-- [![Vue][Vue.js]][Vue-url]
-- [![Angular][Angular.io]][Angular-url]
-- [![Svelte][Svelte.dev]][Svelte-url]
-- [![Laravel][Laravel.com]][Laravel-url]
+- [![PHP][php.net]][php-url]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 - [![JQuery][JQuery.com]][JQuery-url]
 
