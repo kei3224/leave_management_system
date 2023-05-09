@@ -38,7 +38,7 @@ Leave Management System for SDO 1 Pangasinan. HR Unit
     <a href="https://www.facebook.com/depedsdo1pangasinan/">View Facebook Page</a>
     ·
     <a href="https://ph.linkedin.com/in/sdo-1-pangasinan-5a2849136">View LinkedIn</a>
-  </p>s
+  </p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -73,15 +73,15 @@ Leave Management System for SDO 1 Pangasinan. HR Unit
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+A leave management system is a computerized application used by organizations to manage employee time off requests, approvals, and tracking. The system allows employees to request time off and provides supervisors or managers with an easy way to approve or deny requests while ensuring that staffing levels are maintained. 
 
-Here's why:
+The leave management system helps to streamline the entire leave management process by automating the entire workflow, from leave request submission to approval and tracking. Employees can access the system through a self-service portal, where they can view their available leave balances, request time off, and track the status of their requests. The system notifies supervisors or managers of new leave requests and allows them to approve or reject them based on company policies and staffing needs. 
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
+The leave management system also provides several benefits to organizations, including increased efficiency, accuracy, and transparency. By automating the process, it eliminates the need for manual data entry, reduces the chances of errors, and improves data accuracy. The system also ensures compliance with labor laws and regulations related to employee leaves, such as tracking vacation time, sick leave, and other forms of leave. 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+In addition, the system provides real-time tracking and reporting capabilities that enable supervisors or managers to monitor the leave balances and requests of all employees in the organization. This helps them to make informed decisions regarding staffing levels and ensure that there are no conflicts in scheduling time off. 
+
+Overall, a leave management system is a powerful tool for organizations that want to streamline their leave management process, reduce errors, and ensure compliance with labor laws and regulations. It simplifies the process for both employees and supervisors, while providing real-time tracking and reporting capabilities to improve the efficiency of the organization. 
 
 Use the `BLANK_README.md` to get started.
 
