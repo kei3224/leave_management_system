@@ -135,7 +135,12 @@ $is_approver = $meta_qry->num_rows > 0 && $meta_qry->fetch_array()['meta_value']
 											<div class="dropdown-divider"></div> -->
 
 											<a class="dropdown-item"
-												href="?page=leave_applications/manage_application&id=<?php echo $row['id'] ?>"><span
+												href="?page=leave_applications/generate_pdf&id=<?php echo $row['id'] ?>"><span
+															class="fa fa-print"></span> Generate PDF</a>
+													<div class="dropdown-divider"></div>
+
+													<a class="dropdown-item"
+														href="?page=leave_applications/manage_application&id=<?php echo $row['id'] ?>"><span
 													class="fa fa-edit text-primary"></span> Edit</a>
 											<div class="dropdown-divider"></div>
 
