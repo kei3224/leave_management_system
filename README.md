@@ -1,6 +1,6 @@
 # leave_management_system
 
-Leave Management System for SDO 1 Pangasinan. HR Unit
+Leave Management System for SDO 1 Pangasinan of HR Unit
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
@@ -91,8 +91,8 @@ Use the `LICENSE.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
+- [![PHP][PHP.net]][PHP-url]
 - [![React][React.js]][React-url]
-- [![PHP][php.net]][php-url]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 - [![JQuery][JQuery.com]][JQuery-url]
 
@@ -150,13 +150,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Add Changelog
 - [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-  - [ ] Chinese
-  - [ ] Spanish
+- [x] Add Additional Templates w/ Examples
+- [x] Add "components" document to easily copy & paste sections of the readme
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/kei3224/leave_management_system/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
