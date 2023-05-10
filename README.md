@@ -214,13 +214,13 @@ Use this space to list resources you find helpful and would like to give credit 
 
 [contributors-shield]: https://img.shields.io/github/contributors/kei3224/leave_management_system.svg?style=for-the-badge
 [contributors-url]: https://github.com/kei3224/leave_management_system/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/kei3224/leave_management_system.svg?style=for-the-badge
 [forks-url]: https://github.com/kei3224/leave_management_system/forks
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/kei3224/leave_management_system.svg?style=for-the-badge
 [stars-url]: https://github.com/kei3224/leave_management_system/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/kei3224/leave_management_system.svg?style=for-the-badge
 [issues-url]: https://github.com/kei3224/leave_management_system/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/kei3224/leave_management_system.svg?style=for-the-badge
 [license-url]: https://github.com/kei3224/leave_management_system/blob/master/LICENSE.md
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
