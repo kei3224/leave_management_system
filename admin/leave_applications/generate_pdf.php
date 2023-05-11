@@ -1,3 +1,7 @@
+<?php 
+ob_start();
+?>
+
 <?php
 if (isset($_GET['id']) && $_GET['id'] > 0) {
     $qry = $conn->query("SELECT * from `leave_applications` where id = '{$_GET['id']}' ");
@@ -20,9 +24,7 @@ if ($_settings->userdata('type') == 3) {
         </h3>
     </div>
     <div class="card-body">
-        <?php 
-        // $html = ob_get_clean();
-        ?>
+
 
         <?php
         require_once('TCPDF/tcpdf.php');
@@ -462,7 +464,7 @@ if ($_settings->userdata('type') == 3) {
         $pdf->setTextShadow(array('enabled' => true, 'depth_w' => 0.2, 'depth_h' => 0.2, 'color' => array(196, 196, 196), 'opacity' => 1, 'blend_mode' => 'Normal'));
         ob_start();
         ?>
-       <!-- Set some html contents -->
+        <!-- Set some html contents -->
         <?php
         $html = ob_get_clean();
 

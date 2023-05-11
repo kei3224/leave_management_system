@@ -235,3 +235,6 @@ $is_approver = $meta_qry->num_rows > 0 && $meta_qry->fetch_array()['meta_value']
 		})
 	}
 </script>
+<?php
+ ob_get_clean();
+?>
