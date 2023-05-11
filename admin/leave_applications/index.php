@@ -26,7 +26,7 @@ $is_approver = $meta_qry->num_rows > 0 && $meta_qry->fetch_array()['meta_value']
 							<col width="25%">
 							<col width="5%">
 							<col width="10%">
-							<col width="15%">
+							<col width="5%">
 						</colgroup>
 					<?php else: ?>
 						<colgroup>
@@ -93,10 +93,10 @@ $is_approver = $meta_qry->num_rows > 0 && $meta_qry->fetch_array()['meta_value']
 								</td>
 								<td align="center">
 
-									<button type="button" class="btn btn-success btn-sm btn-flat"
-										onclick="printPdf(<?php echo $row['id']; ?>)">
+									<!-- <button type="button" class="btn btn-success btn-sm btn-flat"
+										onclick="printPdf(<?php //echo $row['id']; ?>)">
 										<span class="glyphicon glyphicon-print"></span> Print
-									</button>
+									</button> -->
 
 									<button type="button"
 										class="btn btn-flat btn-default btn-sm dropdown-toggle dropdown-icon"
@@ -117,25 +117,25 @@ $is_approver = $meta_qry->num_rows > 0 && $meta_qry->fetch_array()['meta_value']
 										<?php if ($_settings->userdata('type') != 3 || ($row['status'] == '0')): ?>
 
 											<!-- <a class="dropdown-item generate_pdf"
-												href="?page=leave_applications/generate_pdf&id=/<?php echo $row['id']; ?>.pdf"
-												target="_blank" download="<?php echo $row['id']; ?>.pdf"
+												href="?page=leave_applications/generate_pdf&id=/<?php //echo $row['id']; ?>.pdf"
+												target="_blank" download="<?php //echo $row['id']; ?>.pdf"
 												title="Generate PDF Application"><span class="fas fa-print"> Generate
 													PDF</span></a>
 											<div class="dropdown-divider"></div>
 
 											<a class="dropdown-item generate_pdf"
-												href="?page=leave_applications/generate_pdf&id=/<?php echo $row['id']; ?>"
+												href="?page=leave_applications/generate_pdf&id=/<?php //echo $row['id']; ?>"
 												target="blank" title="Print Leave Application"><span class="fa fa-eye"> View
 													Printed</span></a>
 											<div class="dropdown-divider"></div> -->
 
 											<!-- <a class="dropdown-item generate_pdf" href="javascript:void(0)"
-												data-id="<?php echo $row['id'] ?>"> <span class="fas fa-print"></span> Generate
+												data-id="<?php //echo $row['id'] ?>"> <span class="fas fa-print"></span> Generate
 												PDF</a>
 											<div class="dropdown-divider"></div> -->
 
 											<a class="dropdown-item"
-												href="?page=leave_applications/generate_pdf2&id=<?php echo $row['id'] ?>"><span
+												href="?page=leave_applications/generate_pdf&id=<?php echo $row['id'] ?>"><span
 															class="fa fa-print"></span> Generate PDF</a>
 													<div class="dropdown-divider"></div>
 

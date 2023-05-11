@@ -13,7 +13,7 @@ if ($_settings->userdata('type') == 3) {
 }
 ?>
 <?php
-ob_start();
+ob_clean();
 require_once('TCPDF/tcpdf.php');
 class PDF extends TCPDF
 {
@@ -443,14 +443,6 @@ $pdf->AddPage();
 
 // set text shadow effect
 $pdf->setTextShadow(array('enabled' => true, 'depth_w' => 0.2, 'depth_h' => 0.2, 'color' => array(196, 196, 196), 'opacity' => 1, 'blend_mode' => 'Normal'));
-ob_start();
-?>
-<!-- Set some html contents -->
-<?php
-$html = ob_get_clean();
-
-// output the HTML content
-$pdf->writeHTML($html, true, false, true, false, '');
 
 // $pdf->writeHTML($html, $ln=true, $fill=false, $reseth=false, $cell=false, $align='');
 // writeHTMLCell($w, $h, $x, $y, $html='', $border=0, $ln=0, $fill=0, $reseth=true, $align='', $autopadding=true);
