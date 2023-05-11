@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 
@@ -28,6 +27,7 @@
       </div>
     </div>
   </header>
+  
   <!-- Section-->
   <style>
     .book-cover {

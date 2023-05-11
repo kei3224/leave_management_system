@@ -45,5 +45,5 @@ function isMobileDevice(){
     //Otherwise return false..  
     return false;
 }
-ob_end_flush();
+// ob_end_flush();
 ?>

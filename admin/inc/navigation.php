@@ -23,7 +23,7 @@
           <!-- Sidebar Menu -->
           <nav class="mt-3">
             <ul class="nav nav-pills nav-sidebar flex-column text-sm nav-compact nav-flat nav-child-indent nav-collapse-hide-child" data-widget="treeview" role="menu" data-accordion="false">
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" style="padding-top: 1px; padding-bottom: 1px;">
                 <a href="./" class="nav-link nav-home">
                   <i class="nav-icon fas fa-home"></i>
                   <p>
@@ -32,7 +32,7 @@
                 </a>
               </li>
               <?php if ($_settings->userdata('type') == 3) : ?>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" style="padding-top: 1px; padding-bottom: 1px;">
                   <a href="<?php echo base_url ?>admin/?page=employees/records&id=<?php echo $_settings->userdata('id') ?>" class="nav-link nav-records">
                     <i class="nav-icon fas fa-id-card"></i>
                     <p>
@@ -41,7 +41,7 @@
                   </a>
                 </li>
               <?php else : ?>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" style="padding-top: 1px; padding-bottom: 1px;">
                   <a href="<?php echo base_url ?>admin/?page=employees" class="nav-link nav-employees">
                     <i class="nav-icon fas fa-user-friends"></i>
                     <p>
@@ -50,7 +50,7 @@
                   </a>
                 </li>
               <?php endif; ?>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" style="padding-top: 1px; padding-bottom: 1px;">
                 <a href="<?php echo base_url ?>admin/?page=leave_applications" class="nav-link nav-leave_applications">
                   <i class="nav-icon fas fa-file-alt"></i>
                   <p>
@@ -60,7 +60,7 @@
               </li>
               <?php if ($_settings->userdata('type') != 3) : ?>
                 <?php if ($_settings->userdata('type') == 1) : ?>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item dropdown" style="padding-top: 1px; padding-bottom: 1px;">
                     <a href="<?php echo base_url ?>admin/?page=maintenance/department" class="nav-link nav-maintenance_department">
                       <i class="nav-icon fas fa-building"></i>
                       <p>
@@ -71,7 +71,7 @@
 
                   <li class="nav-item dropdown">
                     <a href="<?php echo base_url ?>admin/?page=maintenance/asignatory" class="nav-link nav-maintenance_asignatory">
-                      <i class="nav-icon fas fa-user"></i>
+                      <i class="nav-icon fas fa-user" style="padding-top: 1px; padding-bottom: 1px;"></i>
                       <p>
                         Asignatory List
                       </p>
@@ -80,7 +80,7 @@
 
                   <li class="nav-item dropdown">
                     <a href="<?php echo base_url ?>admin/?page=maintenance/designation" class="nav-link nav-maintenance_designation">
-                      <i class="nav-icon fas fa-th-list"></i>
+                      <i class="nav-icon fas fa-th-list" style="padding-top: 1px; padding-bottom: 1px;"></i>
                       <p>
                         Designation List
                       </p>
@@ -88,7 +88,7 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a href="<?php echo base_url ?>admin/?page=maintenance/leave_type" class="nav-link nav-maintenance_leave_type">
-                      <i class="nav-icon fas fa-list"></i>
+                      <i class="nav-icon fas fa-list" style="padding-top: 1px; padding-bottom: 1px;"></i>
                       <p>
                         Leave Type List
                       </p>
@@ -96,7 +96,7 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a href="<?php echo base_url ?>admin/?page=user/list" class="nav-link nav-user_list">
-                      <i class="nav-icon fas fa-users"></i>
+                      <i class="nav-icon fas fa-users" style="padding-top: 1px; padding-bottom: 1px;"></i>
                       <p>
                         User List
                       </p>
@@ -106,7 +106,7 @@
 
                 <li class="nav-item dropdown">
                   <a href="<?php echo base_url ?>admin/?page=reports" class="nav-link nav-reports">
-                    <i class="nav-icon fas fa-file"></i>
+                    <i class="nav-icon fas fa-file" style="padding-top: 1px; padding-bottom: 1px;"></i>
                     <p>
                       Reports
                     </p>
@@ -116,7 +116,7 @@
 
                   <li class="nav-item dropdown">
                     <a href="<?php echo base_url ?>admin/?page=system_info" class="nav-link nav-system_info">
-                      <i class="nav-icon fas fa-cogs"></i>
+                      <i class="nav-icon fas fa-cogs" style="padding-top: 1px; padding-bottom: 1px;"></i>
                       <p>
                         Settings
                       </p>
